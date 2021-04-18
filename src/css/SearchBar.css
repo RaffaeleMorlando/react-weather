@@ -1,0 +1,14 @@
+.searchbar_form {
+    /* width: 50%; */
+   
+}
+.searchbar_form > input {
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+}
+.searchbar_form > input[type="submit"] {
+    background-color: rgb(222, 152, 99);
+    margin-left: 10px;
+    border: 1px solid rgb(213, 132, 70);
+}

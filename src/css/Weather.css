@@ -1,0 +1,90 @@
+.weather_container {
+    /* border: 1px solid blue; */
+    width: 80%;
+    margin: auto;
+    min-height: 500px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.weather_title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    /* border: 1px solid blue; */
+}
+.weather_title > h1 {
+    font-size: 49px;
+}
+.weather_title > img {
+    width: 120px;
+}
+.weather_title > p {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+.weather_temp {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
+.weather_temp > span {
+    border-left: 1px solid rgba(238,127,73,0.9738270308123249);
+    border-right: 1px solid rgba(238,127,73,0.9738270308123249);
+    padding: 10px;
+}
+/* .weather_temp::after,.weather_temp::before {
+    content: ' ';
+    border: 1px solid rgba(238,127,73,0.9738270308123249);
+    width: 80%;
+} */
+.weather_info {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    min-height: 150px;
+}
+.weather_info > span {
+    margin: 0 10px;
+}
+.weather_forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+.weather_forecast > .forecast {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(169, 145, 133, 0.974);
+}
+.weather_forecast > .forecast > .description {
+    font-weight: bold;
+}
+.forecast_date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+    font-weight: bold;
+}
+.sun_icon {
+    margin-right: 10px;
+}
